@@ -70,6 +70,9 @@ USE WITH LWP
 THANKS TO
     Most of code was taken from LWPx::ParanoidAgent.
 
+AUTHOR
+    Tokuhiro Matsuno < tokuhirom @A gmail DOT. com>
+
 LICENSE
     Copyright (C) Tokuhiro Matsuno
 

@@ -2,7 +2,7 @@ package Net::DNS::Paranoid;
 use strict;
 use warnings;
 use 5.008008;
-our $VERSION = '0.04';
+our $VERSION = '0.05';
 
 use Class::Accessor::Lite (
     rw => [qw(timeout blocked_hosts whitelisted_hosts resolver)]
@@ -237,7 +237,7 @@ List of blocked hosts in string, regexp or coderef.
 
 =item whitelisted_hosts: ArrayRef[Str|RegExp|Code]
 
-List of whitelisted hosts in string, regexp or coderef.
+List of white listed hosts in string, regexp or coderef.
 
 =item resolver: Net::DNS::Resolver
 
@@ -252,7 +252,7 @@ Resolve a host name using DNS. If it's bad host, then returns $addrs as undef, a
 $start_time is a time to start your operation. Timeout value was counted from it.
 Default value is time().
 
-$timeout is a timeout value. Default value is $dns->timeout.
+$timeout is a timeout value. Default value is C<$dns->timeout>.
 
 =back
 

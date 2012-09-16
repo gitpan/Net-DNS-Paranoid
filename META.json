@@ -32,14 +32,15 @@
       "runtime" : {
          "requires" : {
             "Class::Accessor::Lite" : "0.05",
-            "Net::DNS" : "0.68"
+            "Net::DNS" : "0.68",
+            "perl" : "5.008008"
          }
       }
    },
    "provides" : {
       "Net::DNS::Paranoid" : {
          "file" : "lib/Net/DNS/Paranoid.pm",
-         "version" : "0.04"
+         "version" : "0.05"
       }
    },
    "release_status" : "stable",
@@ -48,5 +49,5 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "0.04"
+   "version" : "0.05"
 }
